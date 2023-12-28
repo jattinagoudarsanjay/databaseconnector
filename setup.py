@@ -19,17 +19,17 @@ with open('README.md', 'r', encoding='utf-8') as f:
    
 
 __version__ = "0.0.4"
-REPO_NAME = "mongodbconnectorpkg"
-PKG_NAME= "Mongo-Connect"
-AUTHOR_USER_NAME = "sunnysavita10"
-AUTHOR_EMAIL = "sunny.savita@ineuron.ai"
+REPO_NAME = "databaseconnector"
+PKG_NAME= "MongoDB-Connect"
+AUTHOR_USER_NAME = "jattinagoudarsanjay"
+AUTHOR_EMAIL = "sanjaynjattinagoudar@gmail.com"
 
 setup(
     name=PKG_NAME,
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A python package for connecting with database.",
+    description="A python package for connecting with mongodb database.",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
